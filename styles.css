@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #add8e6; /* Azul claro */
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-family:'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.next-button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-align: center; /* Alinhamento do texto no botão */
+    text-decoration: none; /* Remove sublinhado do texto (se houver) */
+    display: inline-block;
+    font-size: 16px; /* Tamanho da fonte do texto do botão */
+    margin: 10px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    border-radius: 5px; /* Borda arredondada do botão */
+}
+
+.next-button:hover {
+    background-color: #45a049; /* Cor de fundo quando o botão é hover */
+}
+
+#gameAnswer {
+    width: 300px; /* Largura da caixa de texto */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.response-table {
+    padding-top: 30px;
+    max-width: 80%; /* Garante que a tabela não ultrapasse a largura da tela */
+    margin: 0 auto; /* Centraliza a tabela na tela */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando o conteúdo ultrapassa a altura da tabela */
+}
+
+.save-button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-align: center; /* Alinhamento do texto no botão */
+    text-decoration: none; /* Remove sublinhado do texto (se houver) */
+    display: inline-block;
+    font-size: 16px; /* Tamanho da fonte do texto do botão */
+    margin: 10px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    border-radius: 5px; /* Borda arredondada do botão */
+}
+
+.save-button:hover {
+    background-color: #45a049; /* Cor de fundo quando o botão é hover */
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
